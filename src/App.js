@@ -8,6 +8,7 @@ import Brand from './Brand';
 import Skills from './Skills'
 import Contact from './Contact'
 import Projects from './Projects'
+import Me from './Me'
 import { 
   BrowserRouter as Router,
   Link,
@@ -19,12 +20,12 @@ function App() {
     <div className="App">
       <Router>
       <Nav />
-      <Section  
-        // title="Section 2"
-        subtitle={Brand}
-        dark={false}
-        id="section2"
-      />
+      <Section
+          
+          subtitle={Me}
+          dark={true}
+          id="section5"
+        />
       <Section
           
           subtitle={Projects}
@@ -37,6 +38,12 @@ function App() {
           dark={false}
           id="section3"
         />
+      <Section  
+        // title="Section 2"
+        subtitle={Brand}
+        dark={false}
+        id="section2"
+      />
         <Section
           // title="Section 3"
           subtitle={Contact}
