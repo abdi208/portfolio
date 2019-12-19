@@ -11,7 +11,7 @@ export default class Navbar extends Component {
     return (
         <nav  className="nav" id="navbar">
         <div className="nav-content">
-            <p>Abdi Ahmed</p>
+            <h1 style={{fontStyle: 'bold', fontSize:'20px'}}>Abdi Ahmed</h1>
             <ul style={{margin: '0 auto'}} className="nav-items">
             <li className="nav-item">
                 <Link
