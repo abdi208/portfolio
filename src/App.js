@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Name from './Name'
 import Nav from './Nav'
 import Section from './Section'
 import Brand from './Brand';
@@ -12,18 +11,25 @@ import Me from './Me'
 import { 
   BrowserRouter as Router,
   Link,
-  Route
+  Route, 
 } from 'react-router-dom'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faArrowCircleDown, faHandSpock} from '@fortawesome/free-solid-svg-icons'
+
+
+library.add(fab, faArrowCircleDown, faHandSpock)
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router >
+
       <Nav />
       <Section
           
           subtitle={Me}
-          dark={true}
+          dark={false}
           id="section5"
         />
       <Section
@@ -54,7 +60,6 @@ function App() {
       <Brand />
       <Skills />
       <Projects /> */}
-
       </Router>
     </div>
   );

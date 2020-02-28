@@ -46,7 +46,7 @@ const Skills =
                 </div>
                 <div style={{marginRight: '20px', display: 'inline-block'}}>
 
-                <img src='https://www.trzcacak.rs/myfile/full/362-3626363_html-css-js-php-logo.png' height= '100px' width='90px'></img>
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png' height= '100px' width='90px'></img>
                 <br />
                 <h1 style={{fontSize: '22px', fontfamily:'times new roman', fontWeight: 'normal'}}>CSS</h1>
                 </div>
