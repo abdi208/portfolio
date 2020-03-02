@@ -63,7 +63,7 @@ export default class Navbar extends Component {
             </li>
             <li className="nav-item">
             
-                <a style={{color: 'black'}} rel="noopener noreferrer" href="https://drive.google.com/file/d/1ULXjqVKUqz5uwDoSZFNf6LhEH8e43sAD/view?usp=sharing" target="_blank" >Resume</a>
+                <a style={{color: 'black'}} rel="noopener noreferrer" href="https://drive.google.com/file/d/1Az0qZTd1oAUEMDIEpk1MZmRhOVWSBQ0W/view?usp=sharing" target="_blank" >Resume</a>
             </li>
 
             </ul>

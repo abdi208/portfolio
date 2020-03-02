@@ -26,7 +26,7 @@ const Projects =
 <>
         <h1 style={{fontSize: '50px'}}>Projects</h1><br/>
         <div style={{display: 'inline-block'}}>
-        <a href='https://infinite-crag-79632.herokuapp.com/' target="_blank"><img src={'/img/Screen.png'} style={{marginRight: '20px'}} height='200px' width='350px'></img></a>  
+        <a href='https://infinite-crag-79632.herokuapp.com/' target="_blank"><img src={'/img/Screen.png'} height='100px' width='250px'></img></a>  
         <h3 style={{fontSize: '20px', fontWeight: 'normal', width: '340px', margin: '0 auto', fontFamily: 'times new Roman'}}>List out your adventures! Adventure Awaits is an app where you can easily organize your future adventures. Allows users to build a bucket list of adventures based on certain categories such as travel and entertainment. <br/> <br/> Technologies used: <br/>  MongoDB <br/>  Express <br/>  React <br/>  Node.js</h3>
         </div>
         <div style={{display: 'inline-block'}}>

@@ -116,17 +116,19 @@ const Me =
                 },
                 "retina_detect": true
             }} />
+        
+        
 
-        <Typist avgTypingSpeed={40} startDelay={500} cursor={{ hideWhenDone: true }}>
-            <h1 style={{ fontSize: '65px', fontStyle: 'bold', fontfamily: 'times new roman', display: 'inline',  }}>Hey <FontAwesomeIcon style={{ fontSize: '87px' }} icon="hand-spock" /> <br /> I'm Abdi <br /> Full Stack Software Developer.</h1>
-            <br /><h4 style={{ fontSize: '46px', fontfamily: 'times new roman', display: 'inline-block',  }}> Welcome to my porfolio site!</h4></Typist>
+            <Typist avgTypingSpeed={40} startDelay={500} cursor={{ hideWhenDone: true }} >
+                <h1 style={{ fontSize: '65px', fontStyle: 'bold', fontfamily: 'times new roman', display: 'inline'  }}>Hey <FontAwesomeIcon style={{ fontSize: '87px' }} icon="hand-spock" /> <br /> I'm Abdi <br /> Full Stack Software Developer.</h1>
+                <br /><h4 style={{ fontSize: '46px', fontfamily: 'times new roman', display: 'inline-block', marginLeft: '25px' }}> Welcome to my porfolio site!</h4></Typist>
 
         <p className="scrolldown">
 
             <a style={{
                 bottom: '120px',
-                left: '50%',
-                marginLeft: '350px',
+                left: '50vw',
+                margin: '0 auto',
                 color: '#000',
                 display: 'block',
                 height: '42px',
