@@ -175,4 +175,24 @@ header .scrolldown a:hover { color: #11ABB0; }
   animation: jump 3s infinite;
 }
 
+.container {
+  width: 100vw;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-3 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 50%;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  height: 300px;
+
+}
 
